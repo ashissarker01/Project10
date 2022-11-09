@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+
+#parent{
+    height: 700px;
+    width: 1600px;
+    position: relative;
+}
+
+#setu{
+    height: 700px;
+    width: 1600px;
+}
+.head{
+    height: 90px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 1600px;
+    top: 0px;
+}
+#logo1{
+    top: 30px;
+    left: 215px;
+    position: absolute;
+}
+#logo2{
+    top: 30px;
+    left: 255px;
+    position: absolute;
+}
+ul li {
+     
+    color: white;
+    display: inline ;
+    padding-left: 40px;
+}
+ul{
+    margin-left: 500px;
+    margin-top: 38px;
+    
+
+}
+.menu ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 90px;
+}
